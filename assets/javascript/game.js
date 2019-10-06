@@ -61,16 +61,16 @@ $(".crystal-image").on("click", function () {
   alert("New score: " + counter);
 
   if (counter === targetNumber) {
-    var win = "You win";
-    $("#winorlose").text(win);
+    // var win = "You win";
+    // $("#winorlose").text(win);
     gamesWon === gamesWon++;
     $("#Wins").text(gamesWon);
     reset();
   }
 
   else if (counter >= targetNumber) {
-    var lose = "You lose";
-    $("#winorlose").text(lose);
+    // var lose = "You lose";
+    // $("#winorlose").text(lose);
     gamesLost === gamesLost++;
     $("#Loses").text(gamesLost);
     reset();

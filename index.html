@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystals Game</title>
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
+    <h1 class="jumbotron">Crystals Game</h1>
+    <div class="container-fluid">
+        <p class="container">
+            You will be given a random number at the start of the game. Crystal images will have a random number value.
+            Click on the images to add those values and match the number to guess.
+        </p>
+        <h4>Number to Guess: <span id="number-to-guess"></span></h4>
 
-    <h1>Number to Guess: <span id="number-to-guess"></span></h1>
-
-    <div id="crystals"></div>
-    <div id="winorlose"></div>
-    <h1>Number of wins: <span id="Wins"></span></h1>
-    <h1>Number of Loses: <span id="Loses"></span></h1>
+        <div id="crystals"></div>
+        <div id="winorlose"></div>
+        <h1>Number of wins: <span id="Wins"></span></h1>
+        <h1>Number of Loses: <span id="Loses"></span></h1>
+    </div>
 
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
